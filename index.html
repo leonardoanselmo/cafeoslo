@@ -15,9 +15,9 @@
     <!-- Header and navigator -->    
     <section class="header">
         <nav>
-            <a href="index.html"><img src="./assets/img/Logo.png" alt="Logo do Café Oslo"></a>
-        
-            <div class="nav-links">
+            <a href="index.html"><img src="./assets/img/Logo.png" alt="Logo do Café Oslo"></a>        
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="#">EL ESPACIO</a></li>
                     <li><a href="#">PRODUCTS</a></li>
@@ -26,6 +26,7 @@
                     <li><a href="">CONTACTO</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>RECIÉN HECHO, TODOS LOS DIAS</h1>
@@ -150,6 +151,16 @@
         </div>
         <p>by Leonardo Anselmo</p>
     </section>
-    
+
+    <!-- JavaScript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";            
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>    
 </body>
 </html>
