@@ -69,8 +69,7 @@ nav img {
     color: var(--color-text-light);
     max-width: 500px;        
     text-align: center;    
-    margin: 100px auto;
-    padding-bottom: 100px;    
+    margin: 100px auto;    
 }
 
 .text-box h1 {    
@@ -228,8 +227,7 @@ nav img {
 }
 
 .footer {
-    width: 80%;
-    min-height: 150px;
+    width: 80%;    
     background-color: var(--color-dark);    
     color: var(--color-bege);
     margin: 0 auto;
