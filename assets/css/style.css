@@ -256,3 +256,11 @@ nav img {
 .div-top-two .fa {
     margin: 0 auto;
 }
+
+@media (max-width: 1200px) {
+    
+    .text-box {         
+        margin: 50px auto;    
+    }
+
+}
